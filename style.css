@@ -1,0 +1,172 @@
+/* 引入 Google 字體 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+/* General settings */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('chiikawa.jpg'); /* 背景圖片 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+    line-height: 1.8;
+    min-height: 100vh;
+}
+
+/* 通用透明盒子設置 */
+.text-box {
+    background-color: rgba(255, 255, 255, 0.8); /* 白色半透明盒子 */
+    padding: 20px;
+    border-radius: 10px; /* 圓角 */
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 陰影效果 */
+    max-width: 800px; /* 限制盒子最大寬度 */
+    text-align: justify; /* 文字兩端對齊 */
+}
+
+/* Title styling */
+h1, h2 {
+    color: #f57f17; /* 深黃色標題 */
+    text-align: center;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem; /* 調整字體大小 */
+}
+
+h2 {
+    font-size: 2rem; /* 調整字體大小 */
+    margin-bottom: 1.2rem;
+}
+
+p {
+    font-size: 1.125rem; /* 文字大小 */
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* 列表樣式 */
+ul, ol {
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+    display: block; /* 將列表項目顯示為塊級元素 */
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+/* 圖片樣式 */
+img {
+    display: block;
+    margin: 2vh auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* 鏈接樣式 */
+a {
+    color: #f57f17;
+    text-decoration: none;
+    font-size: 1.125rem;
+    display: block; /* 將鏈接顯示為塊級元素 */
+    text-align: center; /* 將文本對齊方式設為居中 */
+    margin: 0 auto; /* 水平居中 */
+    width: fit-content; /* 確保鏈接的寬度根據內容自動調整 */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 表單樣式 */
+form {
+    background-color: rgba(255, 255, 255, 0.9); /* 更透明的白色背景 */
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+label, input[type="text"], input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.8em;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #f57f17;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #e65100;
+}
+
+/* 表格樣式 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    background-color: rgba(255, 255, 255, 0.9); /* 表格透明背景 */
+    margin: 0 auto; /* 水平居中 */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: left;
+}
+
+th {
+    background-color: #f57f17;
+    color: white;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.8); /* 表格內容透明背景 */
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.9); /* 表格 hover 效果 */
+}
+
+/* 行內元素 */
+span {
+    font-style: italic;
+    color: #d84315;
+    display: block; /* 將行內元素轉換為塊級元素，這樣才能使用 margin auto 來居中 */
+    text-align: center; /* 將文本對齊方式設為居中 */
+    margin: 0 auto; /* 水平居中 */
+}
+
+strong {
+    font-weight: bold;
+    color: #f57f17;
+    display: block; /* 將行內元素轉換為塊級元素，這樣才能使用 margin auto 來居中 */
+    text-align: center; /* 將文本對齊方式設為居中 */
+    margin: 0 auto; /* 水平居中 */
+}
+
+em {
+    color: #8e44ad;
+    font-style: italic;
+    display: block;
+    text-align: center;
+    margin-top: 3vh;
+}
